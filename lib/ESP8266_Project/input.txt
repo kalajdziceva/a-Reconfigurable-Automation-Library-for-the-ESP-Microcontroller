@@ -1,0 +1,43 @@
+CREATE GPIO oAlarm
+SET oAlarm Mode Output
+SET oAlarm Pin 5
+SET oAlarm Variable io
+
+
+CREATE TIMER ondelay
+SET ondelay Time 100
+SET ondelay Input iOndelay
+SET ondelay Output io
+SET ondelay Mode OnDelay
+
+mov a 15
+print a
+
+set TestGpio a
+
+mov b 112
+and b 555
+print b
+
+not b
+print b
+
+mov b 112
+or b 120
+print b
+
+
+MOV x 1.
+mov y 2
+add x y
+add x 5.5
+print x y  true
+
+mov a 2
+mov b 3
+add a b
+print a
+xor a b
+not a
+
+mov io 10

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.cc": "cpp",
+        "*.cpp": "cpp",
+        "limits": "c",
+        "typeinfo": "c",
+        "peripherygpio.h": "c",
+        "cpu.h": "c",
+        "peripherycommon.h": "c",
+        "parse.h": "c"
+    }
+}

@@ -1,0 +1,54 @@
+create GPIO iBtn
+SET iBtn MODE INPUT
+SET iBtn PIN 5
+SET iBtn VARIABLE btn
+
+CREATE TIMER tim
+SET tim MODE OnDelay
+SET tim PERIOD 3000
+SET tim IN btn
+SET tim OUT led
+
+CREATE TIMER tim2
+SET tim2 MODE OnDelay
+SET tim2 PERIOD 4000
+SET tim2 IN btn
+SET tim2 OUT led
+
+
+CREATE GPIO oLed
+SET oLed MODE OUTPUT
+SET oLed PIN 4
+SET oLed VARIABLE led
+
+
+mov a 15
+print a
+
+mov b 112
+and b 555
+print b
+
+not b
+print b
+
+mov b 112
+or b 120
+print b
+
+MOV x 1.
+mov y 2
+add x y
+add x 5.5
+print x y  true
+
+mov a 2
+mov b 3
+add a b
+print a
+xor a b
+not a
+
+
+
+

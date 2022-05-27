@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.cc": "cpp",
+        "*.cpp": "cpp",
+        "string": "cpp",
+        "parse.h": "c",
+        "type_traits": "cpp"
+    }
+}
